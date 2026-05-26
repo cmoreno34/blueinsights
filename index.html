@@ -151,8 +151,39 @@
         color: #334155;
         margin-bottom: 14px;
       }
-      .about p:last-child {
-        margin-bottom: 0;
+      .about p:last-of-type {
+        margin-bottom: 14px;
+      }
+      .about-subtitle {
+        font-size: 14px;
+        font-weight: 700;
+        color: #1e293b;
+        margin-top: 22px;
+        margin-bottom: 10px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid #e2e8f0;
+      }
+      .about-list {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 14px 0;
+      }
+      .about-list li {
+        font-size: 14.5px;
+        line-height: 1.55;
+        color: #334155;
+        padding-left: 20px;
+        position: relative;
+        margin-bottom: 8px;
+      }
+      .about-list li::before {
+        content: "›";
+        position: absolute;
+        left: 4px;
+        top: 0;
+        color: #3b82f6;
+        font-weight: 700;
+        font-size: 16px;
       }
       .about .founder {
         display: inline-flex;
@@ -221,18 +252,59 @@
     </p>
 
     <section class="about">
-      <h2>Sobre nosotros</h2>
+      <h2>Quiénes somos</h2>
       <p>
-        <strong>Blue Insights 2011 SL</strong> es una empresa española de
-        consultoría estratégica e inversión, fundada en 2011 y con sede en
-        Madrid.
+        <strong>Blue Insights 2011 SL</strong> es la empresa española de
+        consultoría e inversión fundada y dirigida por
+        <strong>César Moreno Pascual</strong>, con sede en Madrid.
+      </p>
+
+      <h3 class="about-subtitle">Consultoría &amp; partnerships · Inversión</h3>
+      <p>
+        Business consultant y partnerships (R&amp;D, spin-offs), inversor en
+        empresas como <em>Counterfog</em> y otras, en múltiples sectores
+        (industrial y B2C). He participado en programas
+        <strong>H2020</strong> centrados en tecnologías de estado del arte:
+        descontaminación CBRN, escáneres no intrusivos, proyectos
+        cooperativos de renovables en África, entre otros. También he
+        aplicado con socios a programas de innovación <strong>ESA</strong> y
+        <strong>UK Innovation</strong>, pendientes de resolución. Soy
+        accionista en varias spin-offs de I+D.
       </p>
       <p>
-        Acompañamos a empresas e inversores en la identificación,
-        estructuración y ejecución de oportunidades en mercados emergentes,
-        con un foco especial en proyectos sanitarios e inmobiliarios en
-        España y México.
+        Como parte de mi doctorado desarrollé un
+        <strong>algoritmo para redes acíclicas</strong> que servirá de base
+        para nuevas colaboraciones. Estoy interesado en business development
+        y en asesorar la expansión de empresas, como advisor independiente o
+        miembro de advisory boards.
       </p>
+
+      <h3 class="about-subtitle">Docente &amp; conferenciante</h3>
+      <p>
+        Profesor en universidades y escuelas de negocio
+        <em>world-class</em> en materias de <strong>Marketing y Ventas</strong>.
+        He intervenido como ponente en reuniones in-company de sectores
+        diversos: <em>money transfer</em>, vino o análisis bibliométrico
+        basado en citaciones.
+      </p>
+
+      <h3 class="about-subtitle">Áreas de interés</h3>
+      <ul class="about-list">
+        <li>
+          Business plans industriales y análisis estratégico para programas
+          H2020 (o similares) e I+D industrial, como experto externo o
+          partner del proyecto.
+        </li>
+        <li>Business development advisor.</li>
+        <li>
+          Conferencias <em>in-company</em> y formaciones personalizadas.
+        </li>
+        <li>
+          Aplicación de big data y algoritmos de redes a problemas
+          empresariales.
+        </li>
+      </ul>
+
       <a
         class="founder"
         href="https://www.linkedin.com/in/cmorenopa"
@@ -243,7 +315,7 @@
         <svg viewBox="0 0 24 24" fill="#0a66c2" xmlns="http://www.w3.org/2000/svg">
           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
         </svg>
-        César Moreno Pascual · CEO &amp; Founder
+        Perfil de César Moreno Pascual en LinkedIn
       </a>
     </section>
 
